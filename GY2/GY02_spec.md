@@ -21,17 +21,21 @@ A tárgyon tanult specifikációs eszköz a megoldandó feladat formalizált "me
 
 A specifikációnk négy részből fog állni, méghozzá az alábbiakra bomlik:
 
+
 ##### Bemenet
 
 A bemenetnél jelölni kell minden olyan adatot, amelyet a feladatmegoldásunk felhasznál, vagyis, amiktől a kimeneteink függeni fognak (a feladatmegoldásunkra végsősoron függvényként is tekinthetünk).
+
 
 ##### Kimenet
 
 A kimenetnél nyilatkozunk azokról az adatokról, amelyeket a megoldás eredményeképp szeretnénk kapni. A kimenet önmagában nem ad választ arra, hogy mi lesz az eredmény, csak arra, hogy milyen típusú az, valamint, hogy milyen azonosítóval hivatkozunk rá a specifikációban. Ahogy bementből, természetesen kimenetből is lehet több.
 
+
 ##### Előfeltétel
 
 Előfordulhat, hogy a bementnek bizonyos megkötéseknek kell megfelelnie, hogy értelmes eredmény legyen számítható belőle. (Nem lehet például egy személy magassága negatív érték.) Máskor a számítás elvégezhető a kizárni kívánt értékekkel, de azokról tudjuk, hogy értelmetlenek (1000 méter magas ember).
+
 
 ##### Utófeltétel
 
