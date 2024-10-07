@@ -8,6 +8,36 @@ ___
 Megismerkedtünk a kurzuson tanult specifikációs eljárás felépítésével és jelöléseivel. Egyszerű példákon keresztül gyakoroltuk ennek használatát.
 
 
+## Elmélet
+___
+#### Mi az a specifikáció?
+
+A tárgyon tanult specifikációs eszköz a megoldandó feladat formalizált "megragadását", absztrahálását teszi lehetővé. *Idézve az előadásból:*
+
+> *„a feladat formális megragadása szerződés a megbízó és a fejlesztő között"*
+
+
+#### A specifikáció részei
+
+A specifikációnk négy részből fog állni, méghozzá az alábbiakra bomlik:
+
+##### Bemenet
+
+A bemenetnél jelölni kell minden olyan adatot, amelyet a feladatmegoldásunk felhasznál, vagyis, amiktől a kimeneteink függeni fognak (a feladatmegoldásunkra végsősoron függvényként is tekinthetünk).
+
+##### Kimenet
+
+A kimenetnél nyilatkozunk azokról az adatokról, amelyeket a megoldás eredményeképp szeretnénk kapni. A kimenet önmagában nem ad választ arra, hogy mi lesz az eredmény, csak arra, hogy milyen típusú az, valamint, hogy milyen azonosítóval hivatkozunk rá a specifikációban. Ahogy bementből, természetesen kimenetből is lehet több.
+
+##### Előfeltétel
+
+Előfordulhat, hogy a bementnek bizonyos megkötéseknek kell megfelelnie, hogy értelmes eredmény legyen számítható belőle. (Nem lehet például egy személy magassága negatív érték.) Máskor a számítás elvégezhető a kizárni kívánt értékekkel, de azokról tudjuk, hogy értelmetlenek (1000 méter magas ember).
+
+##### Utófeltétel
+
+Az utófeltétel talán a legfontosabb (de legalábbis legbeszédesebb) része a specifikációnak. Megmondja, hogy a megoldás bemente és kimenete között milyen kapcsolat áll fenn. Nagyon fontos kihangsúlyozni, hogy nem a megoldás módját vagy menetét adja meg, tehát az algoritmustól eltérő és sokszor teljesen független dologról beszélünk.
+
+
 ## Feladatok
 ___
 
