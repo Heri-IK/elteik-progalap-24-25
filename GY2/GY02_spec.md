@@ -113,3 +113,20 @@ if (x > 0 && y > 0)
     sikNegyed = 4;
 }
 ```
+
+
+## Gyakorlás
+___
+#### Ellenőrző kérdések
+
+1. Mik a specifikáció részei, és mi a szerepük?
+2. Mi az implikáció igazságtáblája?
+3. Hogyan valósítom meg implikációval az esetszétválasztást? Miért működik?
+
+
+#### Gyakorló feladatok
+
+>**Az elkészített feladatokat Teams-en és az egyetemi levelezésemen is szívesen fogadom!**
+
+1. Kérjünk be két természetes számot (a és b), majd döntsük el, milyen számjegy áll a-nak a b-edik helyiértékén.
+2. Találjuk meg kettő szám legnagyobb közös osztóját.
